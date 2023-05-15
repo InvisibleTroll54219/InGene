@@ -31,13 +31,13 @@ import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
 // Presentation page sections
 import Counters from "pages/Presentation/sections/Counters";
 import Information from "pages/Presentation/sections/Information";
-import DesignBlocks from "pages/Presentation/sections/DesignBlocks";
+// import DesignBlocks from "pages/Presentation/sections/DesignBlocks";
 import Pages from "pages/Presentation/sections/Pages";
-import Testimonials from "pages/Presentation/sections/Testimonials";
+// import Testimonials from "pages/Presentation/sections/Testimonials";
 import Download from "pages/Presentation/sections/Download";
 
 // Presentation page components
-import BuiltByDevelopers from "pages/Presentation/components/BuiltByDevelopers";
+// import BuiltByDevelopers from "pages/Presentation/components/BuiltByDevelopers";
 
 // Routes
 import routes from "routes";
@@ -53,8 +53,8 @@ function Presentation() {
         routes={routes}
         action={{
           type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
-          label: "free download",
+          route: "https://www.formulabharat.com/",
+          label: "Formula Bharat",
           color: "info",
         }}
         sticky
@@ -83,7 +83,7 @@ function Presentation() {
                 },
               })}
             >
-              Material Kit 2 React{" "}
+              InGene, IIT Dharwad{" "}
             </MKTypography>
             <MKTypography
               variant="body1"
@@ -92,8 +92,7 @@ function Presentation() {
               px={{ xs: 6, lg: 12 }}
               mt={1}
             >
-              Free & Open Source Web UI Kit built over ReactJS &amp; MUI. Join over 1.6 million
-              developers around the world.
+              Motorsport club of the Institute for Formula Bharat 2025
             </MKTypography>
           </Grid>
         </Container>
@@ -111,11 +110,11 @@ function Presentation() {
       >
         <Counters />
         <Information />
-        <DesignBlocks />
+        {/* <DesignBlocks /> */}
         <Pages />
-        <Container sx={{ mt: 6 }}>
+        {/* <Container sx={{ mt: 6 }}>
           <BuiltByDevelopers />
-        </Container>
+        </Container> */}
         <Container>
           <Grid container spacing={3}>
             <Grid item xs={12} lg={4}>
@@ -160,7 +159,7 @@ function Presentation() {
             </Grid>
           </Grid>
         </Container>
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Download />
         <MKBox pt={18} pb={6}>
           <Container>
